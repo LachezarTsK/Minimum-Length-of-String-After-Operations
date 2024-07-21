@@ -4,6 +4,7 @@ using System;
 public class Solution
 {
     private static readonly int ALPHABET_SIZE = 26;
+
     public int MinimumLength(string input)
     {
         int[] frequency = new int[ALPHABET_SIZE];
